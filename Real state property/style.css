@@ -1,0 +1,80 @@
+html,body{
+height: 100%;
+width: 100%;
+font-family: sans-serif;
+color: #fff;
+}
+
+.navbar{
+   background: rgba(0, 0, 0, 0.979);
+}
+
+.nav-link:hover{
+   color: rgba(216, 18, 110, 0.788) !important;
+   transition: all,2s ease;
+}
+
+#home{
+   background-image: linear-gradient(
+      rgba(0,0,0,0.4),
+      rgba(0,0,0,0.4)
+   ),url(img/constraction\ 2.jpg);
+display: table;
+height: 100%;
+width: 100%;
+background-size: cover;
+
+}
+
+
+.hover-start{
+   transition: all,3linear;
+}
+
+.hover-img:hover{
+   transform: scale(1.2);
+}
+
+.company-employ img{
+   width: 90px;
+   height: 100%;
+   border-radius: 100%;
+}
+
+.footer-section{
+   background: linear-gradient(
+      rgba(0,0,0,0.2),
+      rgba(0,0,0,0.2)
+   );
+}
+
+
+#gl-img  img{
+   transition: all,2 linear;
+   border-radius: 20px;
+}
+
+.to-top{
+   position: fixed;
+   right: 32px;
+   bottom: 16px;
+   background-color: rgb(24, 24, 23);
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-decoration: none;
+   font-weight: bold;
+   pointer-events: none;
+   transition: all.5s;
+   opacity: 0;
+}
+
+.to-top.active{
+   opacity: 1;
+   pointer-events: auto;
+}
+
+
